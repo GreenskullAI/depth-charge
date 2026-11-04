@@ -1,0 +1,16 @@
+# Backups: git's history replaces these
+*.bak-*
+
+# Build output: the add-on files go on the Releases page, not in the source
+build/
+build32/
+*.addon64
+*.addon32
+*.exp
+*.lib
+build-log.txt
+build32-log.txt
+
+# Personal settings and old experiments
+depth-charge.cfg
+depth-charge-preset.ini
