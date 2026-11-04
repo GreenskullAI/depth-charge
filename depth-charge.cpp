@@ -4444,7 +4444,7 @@ static void on_destroy_device(device *dev)
 
 extern "C" __declspec(dllexport) const char *NAME        = "Greenskull's Depth Charge";
 extern "C" __declspec(dllexport) const char *AUTHOR      = "Greenskull";
-extern "C" __declspec(dllexport) const char *WEBSITE     = "https://www.youtube.com/@GreenskullAI";
+extern "C" __declspec(dllexport) const char *WEBSITE     = "https://github.com/GreenskullAI/depth-charge";
 extern "C" __declspec(dllexport) const char *DESCRIPTION =
     "Finds the game's depth buffer, measures its curve and places it under the picture, "
     "then publishes it as ordinary ReShade depth. Built for emulators, where depth is often "
